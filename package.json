@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --port 3333",
+    "dev": "bun --bun next dev --port 3333",
     "build": "bun --bun next build",
     "lint": "bun --bun eslint .",
     "typecheck": "bun --bun tsc --noEmit",
